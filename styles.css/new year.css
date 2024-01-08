@@ -1,0 +1,193 @@
+* {
+    margin: 16px;
+}
+
+header {
+    padding-left: 255px;
+    font-family: 'Merriweather', serif;
+}
+
+.header-container {
+    background-image: url('../resources/Banner\ Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 1440px;
+    height: 600px;
+    margin: auto;
+
+}
+
+.header-container .container-head h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+
+.header-container .container-head h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0 345px;
+    margin-bottom: 175px;
+
+}
+
+.main-item {
+    font-family: 'Inter', sans-serif;
+}
+
+.main-item h3 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-item p {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 50;
+}
+
+.main-item h4 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-refo {
+    gap: 25px;
+}
+
+.img {
+    background-image: url('../resources/New\ Year\ Photo.png');
+    width: 802.9px;
+    height: 500px;
+    text-align: center;
+    margin-left: 300px;
+    background-repeat: no-repeat;
+    gap: 50px;
+    justify-content: center;
+    margin: auto;
+}
+
+.section-item {
+    background-image: url(../resources/Vectorrr.png);
+    background-color: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 50%, url(../resources/Vectorrr.png));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    height: 600px;
+    width: 1440px;
+    margin: auto;
+}
+
+.section-container {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-container h3 {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+
+}
+
+.section-list {
+    padding: 115px;
+}
+
+.section-list p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    /* 166.667% */
+}
+
+.btn-primary {
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #F00;
+    display: inline-flex;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.section-div {
+    width: 1320px;
+    height: 482px;
+    background-color: linear-gradient(180deg, rgba(77, 37, 37, 0.1) 0%, rgba(92, 35, 35, 0) 100%);
+    margin: auto;
+}
+
+.div-pera {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.div-span {
+    color: #F00;
+
+}
+
+.new-year {
+    display: flex;
+    margin: auto;
+    width: 1600px;
+    height: 140px;
+}
+
+.new-year-item {
+    
+}
+
+.new-year-item h5 {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.new-year-item h4 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
