@@ -1,5 +1,5 @@
 * {
-    margin: 16px;
+    margin: 0px;
 }
 
 /*banner section*/
@@ -73,7 +73,7 @@ header {
     line-height: normal;
 }
 
-.main-refo {
+.main-info {
     height: 50px;
     margin-top: 50px;
 }
@@ -93,8 +93,8 @@ header {
 /* Welcome to midnight party*/
 
 .section-item {
-    background-image: url(../resources/Vectorrr.png);
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    background-image: url(../resources/Vectorr.png);
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorr.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -180,12 +180,12 @@ header {
 .new-year {
     display: flex;
     width: 1320px;
-    height: 460px;
-    margin: auto;
+    height: 400px;
+    margin: 0 auto;
+    justify-content: space-between;
 
 }
 
-.new-year-item {}
 
 .new-year-item h5 {
     color: #F00;
@@ -214,7 +214,7 @@ header {
 
 .new-year-pic {
     align-items: center;
-    border: 10px solid #F00 ;
+    border: 10px solid #F00;
     padding: 5px;
     border-radius: 100%;
 }
@@ -247,6 +247,8 @@ header {
     width: 1320px;
     height: 1000px;
     margin: auto;
+    display: grid;
+    margin-top: 70px;
 }
 
 .protfolio-section h5 {
@@ -283,6 +285,9 @@ header {
     width: 424px;
     height: 450px;
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 /*subscribe newspaper*/
@@ -347,17 +352,18 @@ header {
 }
 
 .input-item input {
+    padding: 28px 150px; 
+    border-radius: 60px 0px 0px 60px;
     border: none;
-    font-family: 'Inter', sans-serif;
 }
 
 .input-item button {
     border-radius: 0px 60px 60px 0px;
     background: #F00;
     padding: 28px 60px;
+    font-size: 18px;
     color: #FFF;
     border: none;
-    margin-left: -10px;
     width: 210px;
     height: 72px;
     font-family: 'Inter', sans-serif;
@@ -365,59 +371,71 @@ header {
 
 
 /*section of footer*/
-
 .footer-container {
     width: 1600px;
+    height: 500px;
     background: #070211;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 100px;
 }
 
 .footer-item {
-    color: #FFF;
     display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    padding: 70px 0 30px 60px;
 }
 
 .footer-item p {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    width: 50px;
+    /* 166.667% */
+    width: 400px;
+    margin-bottom: 20px;
 }
-
-.footer-icon {
-    display: flex;
-    width: 64px;
-    height: 64px;
-    margin: auto;
-
-}
-
-.footer-footer {
-    display: flex;
+.footer-icon{
     justify-content: space-between;
-    margin-top: 120px;
+    margin: 50px 40%;
 }
-
-.footer-footer .pera1 {
-
+.item-list{
+    display: flex;
+    
+}
+.footer-side{
+    padding: 28px 80px;
+    font-family: 'Inter', sans-serif;
+}
+.footer-footer{
+    display: flex;
     color: #FFF;
-    font-family: Inter;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.pera1 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 40px;
+    /* 166.667% */
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 20px 0px 30px 60px;
 }
-
-.footer-footer .pera2 {
-
+.pera2{
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-weight: 500px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    padding: 28px 80px;
 }
